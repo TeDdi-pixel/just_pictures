@@ -21,6 +21,7 @@ ul{
 }
 
 .info{
+  user-select: none;
   top: 2%;
   font-size: 20px;
   background-color: #3A4150;
@@ -42,7 +43,8 @@ ul{
   cursor: pointer;
 }
 
-p::after {
+
+.info_text::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -79,6 +81,7 @@ p::after {
 
 .logo:hover{
   cursor: pointer;
+  user-select: none;
 }
 
 .wrapper{
