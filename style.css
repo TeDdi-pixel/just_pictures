@@ -40,7 +40,6 @@ ul{
   font-size: 30px;
   transition: all 0.3s ease;
   position: relative;
-  cursor: pointer;
 }
 
 
@@ -54,6 +53,7 @@ ul{
   height: 2px;
   width: 0;
   background: #fff;
+  user-select: all !important;
   transition: width 0.5s ease 0s, left 0.5s ease 0s;
 }
 
