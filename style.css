@@ -52,7 +52,7 @@ ul{
   background: none repeat scroll 0 0 transparent;
   height: 2px;
   width: 0;
-  background: #fff;
+  background: linear-gradient(45deg, #FF5C53, #64FFCB);
   user-select: all !important;
   transition: width 0.5s ease 0s, left 0.5s ease 0s;
 }
