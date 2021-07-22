@@ -28,6 +28,8 @@ ul{
   display: grid;
   justify-content: center;
   margin-top: 0px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #20242C;
 }
 .big_letter{
   font-size: 30px;
@@ -38,7 +40,6 @@ ul{
 .hover_it{
   color: #4ABC96;
   font-size: 30px;
-  transition: all 0.3s ease;
   position: relative;
 }
 
@@ -47,12 +48,12 @@ ul{
   content: "";
   position: absolute;
   bottom: 0;
-  left: 95%;
+  left: 50%;
   display: block;
   background: none repeat scroll 0 0 transparent;
   height: 2px;
   width: 0;
-  background: linear-gradient(45deg, #FF5C53, #64FFCB);
+  background: linear-gradient(45deg, #FF5C53, white,white,white, #64FFCB);
   user-select: all !important;
   transition: width 0.5s ease 0s, left 0.5s ease 0s;
 }
@@ -66,6 +67,7 @@ ul{
 .info_text:hover::after {
   width: 100%;
   left: 0;
+  right: 0;
 }
 
 
@@ -102,14 +104,14 @@ ul{
   justify-content: center;
   opacity: 75%;
   transition: all 0.3s ease-in-out;
-  border-radius: 2%;
+  border-radius: 8px;
   filter: blur(3px);
 }
 
 .block:hover{
   box-shadow: 0 0 15px #000000;
   opacity:100%;
-  border-radius: 2%;
+  border-radius: 8px;
   filter: blur(0px);
   transition: all 0.3s ease-in-out;
 }
@@ -423,4 +425,64 @@ ul{
   grid-column-end: 5;
   grid-row-start: 21;
   grid-row-end: 23;
+}
+
+.break_line{
+  display: flex;
+  min-height: 100px;
+  justify-content: center;
+  width: 100%;
+  background-color: #3A4150;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #20242C;
+  align-items: center;
+
+}
+
+.logo2{
+  width: 50px;
+  position: relative;
+  user-select: none;
+}
+
+.bottom_logo{
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+  vertical-align: super;
+}
+
+.bottom_logo span {
+  font-size: 20px;
+  vertical-align: super;
+}
+
+.bottom_logo img{
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.text_hover_animation{
+  position: relative;
+  outline: none;
+  text-decoration: none;
+}
+
+.text_hover_animation::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 2px;
+  width: 0;
+  background: white;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+}
+
+.text_hover_animation:hover::after{
+  width: 100%;
+  left: 0;
+  right: 0;
 }
