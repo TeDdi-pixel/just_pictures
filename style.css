@@ -19,7 +19,7 @@ ul{
   text-decoration: none;
   list-style: none;
 }
-.video{
+/*.video{
   display: grid;
   position: absolute;
   background-size: cover;
@@ -32,9 +32,10 @@ ul{
   background-repeat: no-repeat;
   box-shadow: 0 0 15px #000000;
   filter: blur(2px);
-}
+}*/
 .info{
   user-select: none;
+  background-color: #39404F;
   top: 2%;
   font-size: 20px;
   display: grid;
