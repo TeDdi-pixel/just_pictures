@@ -180,6 +180,11 @@ ul{
   margin-top: 2%;
 }
 
+.block_same_elements{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .block{
   border: 1px solid #68748E;
   display: flex;
@@ -201,9 +206,6 @@ ul{
 
 .block1{
   background-image: url("images/zoom.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: black;
   grid-column-start: 1;
   grid-column-end: 3;
@@ -211,33 +213,21 @@ ul{
 
 .block2{
   background-image: url("images/space1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .block3{
   background-image: url("images/space2.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   grid-column-start: 1;
   grid-column-end: 1;
 }
 
 .block4{
   background-image: url("images/maxresdefault.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   grid-column-start: 2;
   grid-column-end: 4;
 }
 .block5{
   background-image: url("images/juice-wrld-trailer.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: black;
   font-weight:  bolder;
   grid-column-start: 1;
@@ -248,9 +238,6 @@ ul{
 
 .block6{
   background-image: url("images/maxresdefault-1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: black;
   font-weight:  bolder;
   grid-row-start: 3;
@@ -259,9 +246,6 @@ ul{
 
 .block7{
   background-image: url("images/0.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: white;
   font-weight:  bolder;
   grid-row-start: 4;
@@ -270,9 +254,6 @@ ul{
 
 .block8{
   background-image: url("images/mkju1aljtlt21.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: white;
   font-weight:  bolder;
   grid-row-start: 1;
@@ -281,9 +262,6 @@ ul{
 
 .block9{
   background-image: url("images/149713-purpur-grafika-fioletovyj-voda-kompaniya_huawei_mediapad_na_m6-1080x1920.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: white;
   font-weight:  bolder;
   grid-row-start: 5;
@@ -293,9 +271,6 @@ ul{
 
 .block10{
   background-image: url("images/maxresdefault (1).jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   color: black;
   font-weight:  bolder;
   grid-column-start: 2;
@@ -305,9 +280,6 @@ ul{
 
 .block11{
   background-image: url("images/google3.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   font-weight:  bolder;
   color: black;
   grid-column-start: 3;
@@ -317,17 +289,11 @@ ul{
 
 .block12{
   background-image: url("images/photo_2021-03-08_00-48-10.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   font-weight:  bolder;
 }
 
 .block13{
   background-image: url("images/serdtse_neon_podsvetka_119982_938x1668.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 4;
   grid-row-start: 6;
   grid-row-end: 10;
@@ -335,9 +301,6 @@ ul{
 
 .block14{
   background-image: url("images/photo.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 7;
@@ -346,9 +309,6 @@ ul{
 
 .block15{
   background-image: url("images/171156_qNsv8gl7yz_passengers.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-row-start: 9;
   grid-column-start: 1;
   grid-column-end: 4;
@@ -357,9 +317,6 @@ ul{
 
 .block16{
   background-image: url("images/f32c21bd7a7500475c29b494cbbecf.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 4;
   grid-row-start: 10;
   grid-row-end: 13 ;
@@ -367,9 +324,6 @@ ul{
 
 .block17{
   background-image: url("images/645241530198402.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 1;
   grid-row-start: 11;
   grid-row-end: 14;
@@ -377,9 +331,6 @@ ul{
 
 .block18{
   background-image: url("images/nyivyxpscwv61.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   color: black;
   grid-column-start: 2;
   grid-column-end: 4;
@@ -389,9 +340,6 @@ ul{
 
 .block19{
   background-image: url("images/xxtenations-nawpic-12.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 13;
@@ -400,25 +348,16 @@ ul{
 
 .block20{
   background-image: url("images/840px-Google-Blokirovka-Massovaya-Akkauntov-Uchetnyh-zapisei-2021-3.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .block21{
   background-image: url("images/maxresdefault (2).jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
 .block22{
   background-image: url("images/juice-wrld-photos-3.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 15;
@@ -427,9 +366,6 @@ ul{
 
 .block23{
   background-image: url("images/Zhongli-returns-to-Genshin-Impact.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 16;
@@ -438,9 +374,6 @@ ul{
 
 .block24{
   background-image: url("images/Pornhub-style_GitHub_logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 1;
   grid-column-end: 2;
 
@@ -448,9 +381,6 @@ ul{
 
 .block25{
   background-image: url("images/2592543.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 18;
@@ -459,9 +389,6 @@ ul{
 
 .block26{
   background-image: url("images/sunrise-beach-clipart-wallpaper-1-1000x300.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 18;
@@ -469,9 +396,6 @@ ul{
 
 .block27{
   background-image: url("images/photo_2021-07-21_20-24-16.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 1;
   grid-row-start: 19;
   grid-row-end: 23;
@@ -479,9 +403,6 @@ ul{
 
 .block28{
   background-image: url("images/10x-featured-social-media-image-size.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 19;
@@ -490,9 +411,6 @@ ul{
 
 .block29{
   background-image: url("images/cd1062d1e000017cd25fc07fa0e976e8.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 20;
@@ -501,9 +419,6 @@ ul{
 
 .block30{
   background-image: url("images/c573bf41-6a7c-4927-845c-4ca0260aad6b-760x400.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 21;
@@ -680,31 +595,7 @@ background: linear-gradient(270deg,#526144,#959D5B,#928A80,#2A867A)
 .SC_block5:hover{
   filter:  contrast(100%);
 }
-.SC_block6{
-  justify-content: center;
-  align-items: center;
-  background-color: #39404F;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #20242C;
-  display: flex;
-}
-.SC_block7{
-  justify-content: center;
-  align-items: center;
-  background-color: #39404F;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #20242C;
-  display: flex;
-}
-.SC_block8{
-  justify-content: center;
-  align-items: center;
-  background-color: #39404F;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #20242C;
-  display: flex;
-}
-.SC_block9{
+.SC_block6, .SC_block7, .SC_block8, .SC_block9, .SC_block11,.SC_block12, .SC_block13, .SC_block14, .SC_block15, .SC_block16{
   justify-content: center;
   align-items: center;
   background-color: #39404F;
@@ -715,61 +606,8 @@ background: linear-gradient(270deg,#526144,#959D5B,#928A80,#2A867A)
 
 .SC_block10{
   grid-column-start: 2;
-  justify-content: center;
-  align-items: center;
-  background-color: #39404F;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #20242C;
-  display: flex;
 }
-.SC_block11{
-  justify-content: center;
-  align-items: center;
-  background-color: #39404F;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #20242C;
-  display: flex;
-}
-.SC_block12{
-  justify-content: center;
-  align-items: center;
-  background-color: #39404F;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #20242C;
-  display: flex;
-}
-.SC_block13{
-  justify-content: center;
-  align-items: center;
-  background-color: #39404F;
-  border-radius: 8px;
-  display: flex;
-  box-shadow: 0 0 10px #20242C;
-}
-.SC_block14{
-  justify-content: center;
-  align-items: center;
-  background-color: #39404F;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #20242C;
-  display: flex;
-}
-.SC_block15{
-  justify-content: center;
-  align-items: center;
-  background-color: #39404F;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #20242C;
-  display: flex;
-}
-.SC_block16{
-  justify-content: center;
-  align-items: center;
-  background-color: #39404F;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #20242C;
-  display: flex;
-}
+
 
 .div{
   width: 100%;
@@ -847,4 +685,8 @@ background: linear-gradient(270deg,#526144,#959D5B,#928A80,#2A867A)
 .nav__list span{
   font-size: 20px;
   vertical-align: super;
+}
+
+.nav__list__link{
+  vertical-align:  middle;
 }
