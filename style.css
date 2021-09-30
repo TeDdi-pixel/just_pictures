@@ -639,6 +639,7 @@ background: linear-gradient(270deg,#526144,#959D5B,#928A80,#2A867A)
   width: 50px;
   position: relative;
   user-select: none;
+  vertical-align: middle;
 }
 
 .text_hover_animation{
@@ -688,5 +689,5 @@ background: linear-gradient(270deg,#526144,#959D5B,#928A80,#2A867A)
 }
 
 .nav__list__link{
-  vertical-align:  middle;
+  vertical-align: text-bottom;
 }
